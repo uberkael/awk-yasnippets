@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: sytem time ISO format
+# key: strftime
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+strftime("%c")

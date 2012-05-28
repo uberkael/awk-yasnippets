@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: array populate
+# key: apop
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+split("${1:PointSeparateString}",${2:ArrayName},".")

@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: logaritm
+# key: log
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+log(${1:num})

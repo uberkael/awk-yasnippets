@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: match with regexp
+# key: match
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+match(${1:string},${2:regexp}${3:,optarray})

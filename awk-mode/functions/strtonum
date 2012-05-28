@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: string to hex
+# key: strtonum
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+strtonum(${1:string})

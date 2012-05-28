@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: Seed for random generation
+# key: srand
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+srand() #Seed with local time

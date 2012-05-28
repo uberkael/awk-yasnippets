@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: conditional expresion
+# key: econd
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+{ ${1:cond} ? ${2:actrue} : ${3:acfalse} }

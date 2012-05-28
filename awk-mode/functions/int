@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: remove not int part
+# key: int
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+int(${1:num})

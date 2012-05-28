@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: substitution
+# key: sub
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+sub(${1:regexp},${2:replace}${3:,optdest})
