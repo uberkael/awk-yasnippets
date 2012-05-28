@@ -1,0 +1,12 @@
+AWK Emacs yasnippet snippets.
+
+My collection of AWK snippets for emacs yasnippet plugin.
+Under GPL v3 licence.
+
+-Emacs:
+http://www.gnu.org/software/emacs/
+-Yasnippet:
+https://github.com/capitaomorte/yasnippet
+
+I highly recommend to use with autocomplete:
+http://cx4a.org/software/auto-complete/ 
