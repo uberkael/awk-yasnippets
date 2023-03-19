@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: execute system command
+# key: system
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+system("${1:command}")

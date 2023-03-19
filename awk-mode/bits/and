@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: bitwise AND
+# key: and
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+and(${1:a}, ${2:b}${3:, z})

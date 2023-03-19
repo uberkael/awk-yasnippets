@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: bitwise XOR
+# key: xor
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+xor(${1:a}, ${2:b}${3:, z})

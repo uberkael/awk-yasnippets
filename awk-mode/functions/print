@@ -1,6 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: print
-# key: print
-# contributor: Adriano Martinez <uberkael@gmail.com>
-# --
-print $0

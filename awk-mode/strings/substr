@@ -3,4 +3,4 @@
 # key: substr
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-substr(${1:string},${2:begin},${3:size})
+substr(${1:string}, ${2:start}, ${3:opt_length})

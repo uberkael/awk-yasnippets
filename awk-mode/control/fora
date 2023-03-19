@@ -1,6 +1,9 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: iterate on an array
+# key: fora
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+for (${1:var} in ${2:array}) {
+  # $2[$1]$
+  $0
+}

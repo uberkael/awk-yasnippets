@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: cos in radians
+# key: cos
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+cos(${1:num})

@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: close
+# key: close
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+close(${1:file}${2:, how})

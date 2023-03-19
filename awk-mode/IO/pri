@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: print [expr-list] [>file]
+# key: pri
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+print ${1:expr-list}${2: >file}
