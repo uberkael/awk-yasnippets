@@ -10,7 +10,7 @@ Assuming `yasnippet` is installed in `~/.emacs.d/plugins/yasnippet/snippets`:
 mkdir -p ~/src
 cd ~/src
 # Clone this repository in ~/src/awk-yasnippets
-git pull https://github.com/uberkael/awk-yasnippets.git
+git clone https://github.com/uberkael/awk-yasnippets.git
 
 # Create a sym link to the repository bits in yasnippet
 cd ~/.emacs.d/plugins/yasnippet/snippets
