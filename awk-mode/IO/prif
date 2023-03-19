@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: printf
+# key: prif
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+printf "${1:fmt}", ${2:expr-list}${3: >file}

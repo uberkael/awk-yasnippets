@@ -1,6 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: logic OR
-# key: or
-# contributor: Adriano Martinez <uberkael@gmail.com>
-# --
-or(${1:a},${2:b})

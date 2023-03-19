@@ -1,6 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: sin
-# key: sin
-# contributor: Adriano Martinez <uberkael@gmail.com>
-# --
-sin(${1:num})

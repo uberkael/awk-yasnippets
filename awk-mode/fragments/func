@@ -1,6 +1,10 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: function
+# key: func
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+# $0
+function ${1:name}(${2:vars}) {
+  $3
+  return $4
+}

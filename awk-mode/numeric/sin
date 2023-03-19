@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: sin in radians
+# key: sin
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+sin(${1:num})

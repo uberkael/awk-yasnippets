@@ -1,6 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: atan
-# key: atan
-# contributor: Adriano Martinez <uberkael@gmail.com>
-# --
-atan(${1:num})

@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: random number, 0 ≤ N < 1
+# key: rand
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+rand()

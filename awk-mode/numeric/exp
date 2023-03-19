@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: exponential function
+# key: exp
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+exp(${1:num})

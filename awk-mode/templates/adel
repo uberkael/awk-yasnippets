@@ -1,6 +1,7 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: array delete
+# key: adel
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+for(var in ${1:array})
+  delete $1[var]

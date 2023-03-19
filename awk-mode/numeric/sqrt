@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: square root
+# key: sqrt
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+sqrt(${1:num})

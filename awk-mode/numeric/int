@@ -1,6 +1,6 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: truncate to integer
+# key: int
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+int(${1:num})

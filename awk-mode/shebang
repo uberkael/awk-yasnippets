@@ -1,6 +1,0 @@
-# -*- coding: utf-8; mode: snippet -*-
-# name: shebang
-# key: she
-# contributor: Adriano Martinez <uberkael@gmail.com>
-# --
-#!/usr/bin/awk -f

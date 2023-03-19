@@ -1,6 +1,8 @@
 # -*- coding: utf-8; mode: snippet -*-
-# name: upper case
-# key: toupper
+# name: ENDFILE
+# key: EF
 # contributor: Adriano Martinez <uberkael@gmail.com>
 # --
-toupper(${1:string})
+ENDFILE {
+  $0
+}
