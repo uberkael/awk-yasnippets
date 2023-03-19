@@ -1,0 +1,6 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: getlinevar
+# key: getline
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+(getline tmp) > 0)
