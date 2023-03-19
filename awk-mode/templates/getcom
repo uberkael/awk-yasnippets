@@ -1,0 +1,10 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: command | getline
+# key: getline
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+tmp="$1" # Supply a command
+while ((tmp|getline) >0) {
+  $0
+}
+close (tmp)
