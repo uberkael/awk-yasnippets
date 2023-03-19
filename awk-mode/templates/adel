@@ -1,0 +1,7 @@
+# -*- coding: utf-8; mode: snippet -*-
+# name: array delete
+# key: adel
+# contributor: Adriano Martinez <uberkael@gmail.com>
+# --
+for(var in ${1:array})
+  delete $1[var]
