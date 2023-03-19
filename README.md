@@ -1,4 +1,4 @@
-# awk Emacs yasnippet snippets
+# Awk Emacs yasnippet snippets
 
 A collection of `awk` snippets for the `Emacs`
 [yasnippet](https://github.com/joaotavora/yasnippet) plugin.
