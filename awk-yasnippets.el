@@ -1,4 +1,4 @@
-;;; awk-yasnippets.el ---   Yasnippets for AWK -*- lexical-binding: t; -*-
+;;; awk-yasnippets.el ---  Yasnippets for AWK            -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2023 Adriano Martinez
 
