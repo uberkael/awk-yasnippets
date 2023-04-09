@@ -31,26 +31,24 @@
 
 ;;; Code:
 
-;;;; The requires
-
+;;;;  requires
 (require 'yasnippet)
 
-
-(defvar awk-snippets-root
+;; Define the root of the package
+(defvar awk-yasnippets-root
   (file-name-directory (or load-file-name (buffer-file-name))))
 
 ;;;###autoload
-(defun awk-snippets-initialize ()
-  (let ((snippets-dir (expand-file-name "awk-mode" awk-snippets-root)))
+(defun awk-yasnippets-initialize ()
+  (let ((snippets-dir (expand-file-name "awk-mode" awk-yasnippets-root)))
     (when (boundp 'yas-snippet-dirs)
       (add-to-list 'yas-snippet-dirs snippets-dir t))
     (yas-load-directory snippets-dir)))
 
 ;;;###autoload
 (eval-after-load 'yasnippet
-  '(awk-snippets-initialize))
+  '(awk-yasnippets-initialize))
 
-
-
+;;; Provide package
 (provide 'awk-yasnippets)
 ;;; awk-yasnippets.el ends here
