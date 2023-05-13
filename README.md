@@ -17,10 +17,14 @@ Then, in your Emacs init file, add that path to your `load-path`.
 
 ## Setup
 
-Simply require the package.
+Require the package and call awk-yasnippets-initialize
 
-    (require 'awk-snippets)
+```lisp
+(require 'awk-snippets)
 
+(eval-after-load 'yasnippet
+'(awk-yasnippets-initialize))
+```
 
 ## License
 

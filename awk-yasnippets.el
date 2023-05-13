@@ -6,7 +6,7 @@
 ;; Maintainer: Adriano Martinez <uberkael@gmail.com>
 ;; Created: 03 April 2023
 ;; Version: 0.0.1
-;; Keywords: snippets
+;; Keywords: extensions
 ;; URL: https://github.com/uberkael/awk-yasnippets
 ;; Package-Requires: ((emacs "26.3") (yasnippet "0.8.0"))
 ;; License: GPL-3.0-or-later
@@ -40,14 +40,11 @@
 
 ;;;###autoload
 (defun awk-yasnippets-initialize ()
+  "Initialize the package, loading the snippets into yasnippets."
   (let ((snippets-dir (expand-file-name "awk-mode" awk-yasnippets-root)))
     (when (boundp 'yas-snippet-dirs)
       (add-to-list 'yas-snippet-dirs snippets-dir t))
     (yas-load-directory snippets-dir)))
-
-;;;###autoload
-(eval-after-load 'yasnippet
-  '(awk-yasnippets-initialize))
 
 ;;; Provide package
 (provide 'awk-yasnippets)
