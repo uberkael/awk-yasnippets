@@ -25,8 +25,8 @@
 ;; along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-
-;; Quick intro
+;; Yasnippets for AWK
+;; A collection of snippets to expedite writing AWK scripts.
 ;;
 
 ;;; Code:
